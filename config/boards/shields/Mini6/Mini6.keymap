@@ -11,7 +11,7 @@
                 &kp KP_Q    &kp KP_W    &mo 1
                 &kp KP_A    &kp KP_S    &kp KP_D
             >;
-        }
+        };
 
         bt_layer {
             bindings = <
