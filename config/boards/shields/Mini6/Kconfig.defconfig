@@ -1,4 +1,4 @@
-if SHIELD_MINISIX
+if SHIELD_MINI6
 
 config ZMK_KEYBOARD_NAME
     default "Mini6"
