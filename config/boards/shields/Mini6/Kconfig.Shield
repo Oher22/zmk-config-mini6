@@ -1,2 +1,2 @@
-config SHIELD_MINISIX
+config SHIELD_MINI6
     def_bool $(shields_list_contains,Mini6)
