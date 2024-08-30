@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <
-                &kp KP_Q    &kp KP_W    &mo bt_layer
+                &kp KP_Q    &kp KP_W    &mo 2
                 &kp KP_A    &kp KP_S    &kp KP_D
             >;
         };
