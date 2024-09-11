@@ -8,14 +8,14 @@
 
         default_layer {
             bindings = <
-                &kp SPACE    &kp W    &lt 1 E
+                &lt 1 ESCAPE    &kp W    &kp SPACE
                 &kp A    &kp S    &kp D
             >;
         };
 
         bt_layer {
             bindings = <
-                &bootloader     &kp ENTER   &none
+                &none     &kp ENTER   &bootloader
                 &kp R     &kp F        &kp Q
             >;
         };
