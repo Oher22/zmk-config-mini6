@@ -16,7 +16,7 @@
         bt_layer {
             bindings = <
                 &bootloader     &kp E   &none
-                &kp LSHIFT     &kp F        &kp SPACE
+                &kp SHIFT     &kp F        &kp SPACE
         };
     };
 };
