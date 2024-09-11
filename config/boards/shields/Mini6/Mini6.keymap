@@ -15,7 +15,7 @@
 
         bt_layer {
             bindings = <
-                &bootloader     &kp E   &none
+                &bootloader     &kp ENTER   &none
                 &kp R     &kp F        &kp SPACE
             >;
         };
