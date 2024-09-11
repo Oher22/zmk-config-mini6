@@ -17,6 +17,7 @@
             bindings = <
                 &bootloader     &kp E   &none
                 &kp R     &kp F        &kp SPACE
+            >;
         };
     };
 };
