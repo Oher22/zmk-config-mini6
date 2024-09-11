@@ -16,7 +16,14 @@
         bt_layer {
             bindings = <
                 &none     &kp ENTER   &bootloader
-                &kp E     &kp F        &kp Q
+                &kp E     &to 2        &kp Q
+            >;
+        };
+
+        layerer {
+            bindings = <
+                &kp V     &none   &to 0
+                &kp Z     &kp X        &kp C
             >;
         };
     };
