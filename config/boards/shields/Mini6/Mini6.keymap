@@ -22,7 +22,7 @@
 
         layerer {
             bindings = <
-                &kp V     &none   &to 0
+                &kp V     &bt BT_CLR   &to 0
                 &kp Z     &kp X        &kp C
             >;
         };
