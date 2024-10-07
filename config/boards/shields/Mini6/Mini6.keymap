@@ -26,7 +26,7 @@
                 &kp Z     &kp X        &kp C
             >;
         };
-        layerer {
+        layererest {
             bindings = <
                 &lt 0 ESCAPE     &kp W   &kp E
                 &kp A            &kp S   &kp D
