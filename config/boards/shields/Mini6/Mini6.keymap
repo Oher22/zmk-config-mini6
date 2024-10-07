@@ -22,8 +22,14 @@
 
         layerer {
             bindings = <
-                &kp V     &bt BT_CLR   &to 0
+                &kp V     &to 4   &to 0
                 &kp Z     &kp X        &kp C
+            >;
+        };
+        layerer {
+            bindings = <
+                &lt 0 ESCAPE     &kp W   &kp E
+                &kp A            &kp S   &kp D
             >;
         };
     };
