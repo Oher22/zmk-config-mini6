@@ -8,28 +8,8 @@
 
         default_layer {
             bindings = <
-                &lt 1 ESCAPE    &kp W    &kp SPACE
+                &bt BT_CLR_ALL    &kp W    &kp SPACE
                 &kp A    &kp S    &kp D
-            >;
-        };
-
-        bt_layer {
-            bindings = <
-                &none     &kp ENTER   &bootloader
-                &kp E     &to 2        &kp Q
-            >;
-        };
-
-        layerer {
-            bindings = <
-                &kp V     &to 4   &to 0
-                &kp Z     &kp X        &kp C
-            >;
-        };
-        layererest {
-            bindings = <
-                &lt 0 ESCAPE     &kp W   &kp E
-                &kp A            &kp S   &kp D
             >;
         };
     };
